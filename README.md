@@ -1,7 +1,7 @@
 ## Instagram clone SASS
-#### The objective of this project is to put the basic foundations of SASS into practice
+The objective of this project is to put the basic foundations of SASS into practice
 
-#### Before starting the practice, it is necessary to understand the conceptual part of SASS and its different functionalities.
+Before starting the practice, it is necessary to understand the conceptual part of SASS and its different functionalities.
 
 • What is SASS? What does SASS stand for?
 
