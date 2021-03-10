@@ -1,0 +1,43 @@
+.navbar {
+  @include flex(row, space-between);
+  background: #fff;
+  width: 100%;
+  padding: 0 150px;
+
+  .brand {
+    img {
+      width: 150px;
+      object-fit: contain;
+    }
+  }
+
+  .search {
+    @include input;
+  }
+
+  .navbar-links {
+    @include flex(row);
+
+    li {
+      list-style: none;
+      margin-left: 20px;
+      width: 40px;
+      height: 40px;
+    }
+
+    i {
+      color: #444;
+      font-size: 30px;
+      padding: 5px 0;
+    }
+
+    .profile {
+      background-image: url("/assets/images/Hugh-Jackman.jpg");
+      background-size: 40px;
+      background-position: top;
+      border-radius: 20px;
+      border: 2px solid #8c378c;
+      cursor: pointer;
+    }
+  }
+}

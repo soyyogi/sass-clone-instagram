@@ -22,18 +22,7 @@
         margin-top: 24px;
 
         input {
-            width: 268px;
-            height: 38px;
-            margin: 0 40px 6px 40px;
-            padding:8px;
-            background: $background-color;
-            border: $border;
-            border-radius: 3px;
-
-            &:focus {
-                outline: $border;
-                outline-color: #aaa;
-            }
+            @include input;
         }
 
         .login-btn {

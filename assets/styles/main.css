@@ -99,11 +99,13 @@ body {
   background: #FAFAFA;
   border: #DBDBDB 1px solid;
   border-radius: 3px;
+  text-align: center;
 }
 
 .login .login-form input:focus {
   outline: #DBDBDB 1px solid;
   outline-color: #aaa;
+  text-align: left;
 }
 
 .login .login-form .login-btn {
@@ -305,6 +307,86 @@ body {
   outline: none;
   width: 65px;
   margin-right: 16px;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: #fff;
+  width: 100%;
+  padding: 0 150px;
+}
+
+.navbar .brand img {
+  width: 150px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.navbar .search {
+  width: 268px;
+  height: 38px;
+  margin: 0 40px 6px 40px;
+  padding: 8px;
+  background: #FAFAFA;
+  border: #DBDBDB 1px solid;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.navbar .search:focus {
+  outline: #DBDBDB 1px solid;
+  outline-color: #aaa;
+  text-align: left;
+}
+
+.navbar .navbar-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.navbar .navbar-links li {
+  list-style: none;
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.navbar .navbar-links i {
+  color: #444;
+  font-size: 30px;
+  padding: 5px 0;
+}
+
+.navbar .navbar-links .profile {
+  background-image: url("/assets/images/Hugh-Jackman.jpg");
+  background-size: 40px;
+  background-position: top;
+  border-radius: 20px;
+  border: 2px solid #8c378c;
+  cursor: pointer;
 }
 
 .main {

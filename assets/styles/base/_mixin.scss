@@ -1,6 +1,23 @@
-@mixin flex ($dir, $justify: center, $align: center) {
-    display: flex;
-    justify-content: $justify;
-    align-items: $align;
-    flex-direction: $dir;
+@mixin flex($dir, $justify: center, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $dir;
+}
+
+@mixin input {
+  width: 268px;
+  height: 38px;
+  margin: 0 40px 6px 40px;
+  padding: 8px;
+  background: $background-color;
+  border: $border;
+  border-radius: 3px;
+  text-align: center;
+
+  &:focus {
+    outline: $border;
+    outline-color: #aaa;
+    text-align: left;
+  }
 }
