@@ -1,5 +1,5 @@
 .main {
-  @include flex(row, center, center);
+  @include flex(row);
   width: 935px;
   height: 650px;
   margin-top: 32px;
