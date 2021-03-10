@@ -1,0 +1,91 @@
+.container {
+    background: #FFFFFF;
+    border: $border;
+    @include flex(column)
+}
+
+.login {
+    @include flex(column);
+    font-family: $font;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+
+    .wordmark {
+        margin: 0 71px 0 71px;
+        width: 205px;
+        object-fit: contain;
+    }
+
+    .login-form {
+        width: 348px;
+        margin-top: 24px;
+
+        input {
+            width: 268px;
+            height: 38px;
+            margin: 0 40px 6px 40px;
+            padding:8px;
+            background: $background-color;
+            border: $border;
+            border-radius: 3px;
+
+            &:focus {
+                outline: $border;
+                outline-color: #aaa;
+            }
+        }
+
+        .login-btn {
+            height: 30px;
+            padding: 0;
+            margin: 8px 40px;
+            background: #B2DFFC;
+            color: #fff;
+            font-weight: 700;
+            border: $border;
+            border-radius: 3px;
+        }
+
+        .form-separator {
+            margin: 10px 40px 18px 40px;
+            @include flex(row);
+
+            p {
+                font-weight: 700;
+                font-size: 13px;
+                opacity: 0.5;
+                margin: 0 18px;
+                display: inline-block;
+            }
+            span {
+                display: inline-block;
+                width: 106.25px;
+                height: 1px;
+                border: $border;
+            }
+        }
+
+        .login-facebook {
+            margin: 8px 40px;
+            padding-top: 8px;
+            @include flex(row);
+            color: #385185;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 14px;
+            i {
+                margin-right: 8px;
+                font-size: 18px;
+            }
+        }
+
+    }
+
+    .forgot-password {
+        margin: 12px 0;
+        color: #385185;
+        font-size: 14px;
+        text-decoration: none;
+    }
+}

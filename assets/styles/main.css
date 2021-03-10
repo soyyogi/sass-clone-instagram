@@ -1,1 +1,270 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #FAFAFA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container {
+  background: #FFFFFF;
+  border: #DBDBDB 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.login .wordmark {
+  margin: 0 71px 0 71px;
+  width: 205px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.login .login-form {
+  width: 348px;
+  margin-top: 24px;
+}
+
+.login .login-form input {
+  width: 268px;
+  height: 38px;
+  margin: 0 40px 6px 40px;
+  padding: 8px;
+  background: #FAFAFA;
+  border: #DBDBDB 1px solid;
+  border-radius: 3px;
+}
+
+.login .login-form input:focus {
+  outline: #DBDBDB 1px solid;
+  outline-color: #aaa;
+}
+
+.login .login-form .login-btn {
+  height: 30px;
+  padding: 0;
+  margin: 8px 40px;
+  background: #B2DFFC;
+  color: #fff;
+  font-weight: 700;
+  border: #DBDBDB 1px solid;
+  border-radius: 3px;
+}
+
+.login .login-form .form-separator {
+  margin: 10px 40px 18px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.login .login-form .form-separator p {
+  font-weight: 700;
+  font-size: 13px;
+  opacity: 0.5;
+  margin: 0 18px;
+  display: inline-block;
+}
+
+.login .login-form .form-separator span {
+  display: inline-block;
+  width: 106.25px;
+  height: 1px;
+  border: #DBDBDB 1px solid;
+}
+
+.login .login-form .login-facebook {
+  margin: 8px 40px;
+  padding-top: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #385185;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.login .login-form .login-facebook i {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.login .forgot-password {
+  margin: 12px 0;
+  color: #385185;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.signup {
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border: #DBDBDB 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 350px;
+  height: 63px;
+}
+
+.signup a {
+  color: #2d9feb;
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.getapp {
+  width: 350px;
+  height: 102px;
+}
+
+.getapp p {
+  margin: 10px 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.getapp .app-downloads {
+  margin: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.getapp .app-downloads a {
+  margin-left: 8px;
+}
+
+.getapp .app-downloads img {
+  width: 134px;
+  height: 40px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 935px;
+  height: 650px;
+  margin-top: 32px;
+  padding-bottom: 32px;
+}
+
+.main .section {
+  width: 350px;
+  height: 606px;
+  margin-top: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=main.css.map */
