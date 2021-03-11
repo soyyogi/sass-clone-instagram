@@ -119,6 +119,10 @@ body {
   border-radius: 3px;
 }
 
+.login .login-form .login-btn:hover {
+  text-align: center;
+}
+
 .login .login-form .form-separator {
   margin: 10px 40px 18px 40px;
   display: -webkit-box;

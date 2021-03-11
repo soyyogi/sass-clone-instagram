@@ -34,6 +34,10 @@
             font-weight: 700;
             border: $border;
             border-radius: 3px;
+
+            &:hover {
+                text-align: center;
+            }
         }
 
         .form-separator {
